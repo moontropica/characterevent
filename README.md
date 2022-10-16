@@ -46,4 +46,4 @@ Takes the top user submission and moves it to the winner array. SOL amount for t
 ```
 end
 ```
-Stops taking in new submissions and returns outstanding SOL to wallets.
+Stops taking in new submissions and returns outstanding SOL in the queue array back to the wallet address it came from.
