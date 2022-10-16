@@ -2,7 +2,7 @@
 
 ### Contract Basics
 
-* Contract should sort queue array by highest amount of SOL contribution.
+* Contract should sort queue array by highest amount of SOL contribution as priority and ascending based on submission time.
 * Upon deployment set `owner` to contract deployer.
 
 ## Queue Array
@@ -42,7 +42,7 @@ Can be called by `owner` only.
 ```
 addWinner
 ```
-Takes the top user submission and moves it to the winner array. SOL amount for that user/row is transfered to deployer/owner of contract.
+Takes the top user submission and moves it to the winner array. SOL amount for that user/row is transfered to deployer/owner of contract. If there is a conflict between more than one, take the one which is timestamped earlier. 
 ```
 end
 ```
