@@ -83,3 +83,14 @@ This wallet has already submitted a character request.
 OK
 ````
 OK is selected, use `modify` function to allow adding SOL and updating image.
+
+```
+modify
+```
+Edits the queue array.
+
+sol (uint256), imageURL (string)
+
+* Wallet needs to match an address in the queue array.
+* SOL value should only increase.
+  * Error Modal: You can only increase your SOL position.
