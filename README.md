@@ -104,11 +104,11 @@ Displays the winner addresses.
 |Address|SOL|
 |-------|---|
 
-## Winner Array (On-chain)
+## Selected Array (On-chain)
 |Address|SOL|
 |-------|---|
 
-address (address), sol (uint256), imageURL (string)
+address (address), sol (uint256)
 
 Connected Wallet:
 
