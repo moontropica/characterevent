@@ -111,6 +111,8 @@ Displays the winner addresses.
 
 address (address), sol (uint256)
 
+## Process
+
 Connected Wallet:
 
 * if SOL contribution `> 0` & image is uploaded
