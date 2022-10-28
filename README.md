@@ -81,10 +81,11 @@ Displays the winner addresses.
 * Contract should allow modification of submissions 
   * Increase of SOL contribution
   * Updating of image
-* Submissions made with referrals get 10 `RefPoints` added to their wallet 
-
-
-* Have an API that displays the most recent winners
+* Submissions made using a referral link get 10 `RefPoints` added to the person who made the referral 
+* Have API end points: 
+  * Which displays the most recent winners
+  * Total submissions
+  * Top 5 in Queue
 
 ## Data to Store On-Chain
 
